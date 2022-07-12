@@ -1,0 +1,34 @@
+{
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2022-07-02 18:52:49 +0300"
+    },
+    "done": true
+  },
+  "mowziesmobs:root": {
+    "criteria": {
+      "custom_test_name": "2022-07-02 18:52:49 +0300"
+    },
+    "done": true
+  },
+  "seavil:setup_undersea": {
+    "criteria": {
+      "tick": "2022-07-02 18:52:49 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2022-07-02 23:51:42 +0300",
+      "minecraft:plains": "2022-07-02 18:52:49 +0300"
+    },
+    "done": false
+  },
+  "ironchest:recipes/ironchest/chests/vanilla_dirt_chest": {
+    "criteria": {
+      "has_iron_ingot": "2022-07-02 23:47:06 +0300"
+    },
+    "done": true
+  },
+  "DataVersion": 2586
+}

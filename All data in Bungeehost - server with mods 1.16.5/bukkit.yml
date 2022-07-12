@@ -1,0 +1,46 @@
+# Configuration file bukkit.yml by bungee.host
+
+settings:
+  minimum-api: none
+  allow-end: true
+  warn-on-overload: false
+  permissions-file: permissions.yml
+  update-folder: update
+  plugin-profiling: false
+  connection-throttle: 4000 # Если у вас стоит BungeeCord, поставьте -1
+  query-plugins: false
+  deprecated-verbose: default
+  shutdown-message: §fСервер выключен!
+  ping-packet-limit: -1
+  use-exact-login-location: false
+spawn-limits:
+  monsters: 15
+  animals: 7
+  water-animals: 7
+  ambient: 5
+chunk-gc:
+  period-in-ticks: 300
+  load-threshold: 300
+ticks-per:
+  animal-spawns: 400
+  monster-spawns: 10
+  autosave: 6000
+aliases: now-in-commands.yml
+database:
+  username: bukkit
+  isolation: SERIALIZABLE
+  driver: org.sqlite.JDBC
+  password: walrus
+  url: jdbc:sqlite:{DIR}{NAME}.db
+auto-updater:
+  enabled: false
+  on-broken:
+  - warn-console
+  - warn-ops
+  on-update:
+  - warn-console
+  - warn-ops
+  preferred-channel: rb
+  host: dl.bukkit.org
+  suggest-channels: true
+
